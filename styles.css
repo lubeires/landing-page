@@ -1,0 +1,166 @@
+* {
+  font-family: "Roboto", sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #1f2937;
+
+  min-width: 800px;
+  padding-inline: 20%;
+  padding-block: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+a,
+.main p {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 300;
+  line-height: 1.5;
+
+  padding-block: 1rem;
+}
+
+.section {
+  min-width: 800px;
+  padding-inline: 20%;
+  padding-block: 5rem;
+}
+
+.main {
+  background: #1f2937;
+
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main h2 {
+  color: #f9faf8;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.sign-up {
+  color: #f9faf8;
+  background: #3882f6;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.3rem;
+
+  padding: 0.5rem 2rem;
+}
+
+.main img {
+  width: 30rem;
+}
+
+.info-heading {
+  color: #1f2937;
+  font-size: 2.25rem;
+  text-align: center;
+
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.info-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info p {
+  color: #1f2937;
+  text-align: center;
+}
+
+.info img {
+  border-radius: 50%;
+  border: 3px solid #1f2937;
+
+  width: 12rem;
+  max-width: 100%;
+}
+
+.quote {
+  background: #e5e7eb;
+}
+
+.quote p:nth-child(1) {
+  color: #1f2937;
+  font-size: 2.25rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote p:nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: end;
+}
+
+.contact-card {
+  background: #3882f6;
+  color: #e5e7eb;
+  border-radius: 0.5rem;
+
+  padding: 3rem 6rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-card p {
+  font-weight: 300;
+}
+
+.contact-card .sign-up {
+  border: 1px solid #f9faf8;
+}
+
+footer {
+  color: #e5e7eb;
+  background: #1f2937;
+  font-weight: 300;
+  text-align: center;
+
+  padding: 2rem;
+}
+
+a:hover,
+button:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
